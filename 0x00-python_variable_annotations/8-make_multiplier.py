@@ -4,10 +4,10 @@ Module to creat a multiplier function
 """
 
 
-from typing import callable
+from typing import Callable
 
 
-def make_multiplier(multiplier: float) -> callable[[float], float]:
+def make_multiplier(multiplier: float) -> Callable[[float], float]:
     """
     Returns a function that multiplies a float by a given multiplier.
 

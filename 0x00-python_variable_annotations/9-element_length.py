@@ -1,3 +1,9 @@
+#!/usr/bin/env python3
+"""
+Module to return value with appropriate type
+"""
+
+
 from typing import Iterable, Tuple
 
 
