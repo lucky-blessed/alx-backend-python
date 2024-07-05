@@ -4,10 +4,10 @@ Module to return value with appropriate type
 """
 
 
-from typing import Iterable, Tuple
+from typing import Iterable, Sequence, Tuple, List
 
 
-def element_length(lst: Iterable[str]) -> list[Tuple[str, int]]:
+def element_length(lst: Iterable[Sequence]) -> list[Tuple[Sequence, int]]:
     """
     Returns a list of tuples with each tuple containing element from lst.
 
